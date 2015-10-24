@@ -4,13 +4,13 @@ Course Project - Getting and Cleaning Data
 ## About the script
 
 
-- This R script takes data collected from the accelerometers from the Samsung Galaxy S smartphone.
-- The data was partitioned into two sets (training and test).
-- Merges the training and the test sets to create one data set.
-- Extracts only the measurements on the mean and standard deviation for each measurement. 
-- Uses descriptive activity names to name the activities in the data set.
-- Appropriately labels the data set with descriptive variable names. 
-- Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+	- This R script takes data collected from the accelerometers from the Samsung Galaxy S smartphone.
+	- The data was partitioned into two sets (training and test).
+	- Merges the training and the test sets to create one data set.
+	- Extracts only the measurements on the mean and standard deviation for each measurement. 
+	- Uses descriptive activity names to name the activities in the data set.
+	- Appropriately labels the data set with descriptive variable names. 
+	- Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 ##Instructions
