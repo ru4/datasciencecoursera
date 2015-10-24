@@ -22,8 +22,9 @@ The source files used to create the tidy data from the downloaded file:
 * train/y_train.txt: Training labels.
 * test/X_test.txt: Test set.
 * test/y_test.txt: Test labels.
-* The following files are available for the train and test data. Their descriptions are equivalent.
 
+
+The following files are available for the train and test data. Their descriptions are equivalent.
 
 * train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
