@@ -1,4 +1,4 @@
-Codebook for Getting and Cleaning Data Course Project
+Codebook
 =================
 ##The Source Data
 
