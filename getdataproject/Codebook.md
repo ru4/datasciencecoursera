@@ -1,7 +1,7 @@
-##Codebook for Getting and Cleaning Data Course Project
-
-The Source Data
+Codebook for Getting and Cleaning Data Course Project
 =================
+##The Source Data
+
 The source data set represents data collected from the accelerometers from the Samsung Galaxy S smartphone. The data set archive can be downloaded from:
 
 download: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -11,8 +11,8 @@ A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Source Files
-=================
+##Source Files
+
 
 The source files used to create the tidy data from the downloaded file:
 
@@ -27,8 +27,8 @@ The source files used to create the tidy data from the downloaded file:
 
 -train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-The Original Variables
-=================
+##The Original Variables
+
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -88,8 +88,8 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 The complete list of variables of each feature vector is available in 'features.txt' in the downloaded file
 
 
-The Transformation of the data and Variables
-=================
+##The Transformation of the data and Variables
+
 
 To make a descriptive variables names:
 -Training and test data set are merged to create the unified data set the source files.

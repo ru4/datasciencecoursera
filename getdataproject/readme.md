@@ -1,7 +1,8 @@
-## This is a markdown file
-
-About the script
+Course Project - Getting and Cleaning Data
 =================
+
+## About the script
+
 
 - This R script takes data collected from the accelerometers from the Samsung Galaxy S smartphone.
 - The data was partitioned into two sets (training and test).
@@ -12,8 +13,8 @@ About the script
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-Instructions
-=================
+##Instructions
+
 
 This script uses data from "Human Activity Recognition Using Smartphones Dataset" 
 please downloaded and unzip it and puth the resulted "UCI HAR Dataset" folder in your working directory 
@@ -24,7 +25,7 @@ the script will output the resuled tidy data to your working directory "/TidyDat
 data : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-Dependencies
-=================
+##Dependencies
+
 
 Require reshape2 library for the melt() function
