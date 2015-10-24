@@ -4,16 +4,17 @@ Codebook
 
 The source data set represents data collected from the accelerometers from the Samsung Galaxy S smartphone. The data set archive can be downloaded from:
 
-	download: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+download: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 A full description is available at the site where the data was obtained:
 
-	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ##Source Files
 
 
 The source files used to create the tidy data from the downloaded file:
+
 
 *features_info.txt: Shows information about the variables used on the feature vector.
 *features.txt: List of all features.
@@ -24,7 +25,9 @@ The source files used to create the tidy data from the downloaded file:
 *test/y_test.txt: Test labels.
 *The following files are available for the train and test data. Their descriptions are equivalent.
 
--train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+*train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 
 ##The Original Variables
 
@@ -37,6 +40,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 
 *tBodyAcc-XYZ
 *tGravityAcc-XYZ
@@ -56,7 +60,9 @@ These signals were used to estimate variables of the feature vector for each pat
 *fBodyGyroMag
 *fBodyGyroJerkMag
 
+
 The set of variables that were estimated from these signals are: 
+
 
 *mean(): Mean value
 *std(): Standard deviation
@@ -76,13 +82,16 @@ The set of variables that were estimated from these signals are:
 *bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 *angle(): Angle between to vectors.
 
+
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
 
 *gravityMean
 *tBodyAccMean
 *tBodyAccJerkMean
 *tBodyGyroMean
 *tBodyGyroJerkMean
+
 
 The complete list of variables of each feature vector is available in 'features.txt' in the downloaded file
 
@@ -91,6 +100,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 
 To make a descriptive variables names:
+
 
 *Training and test data set are merged to create the unified data set the source files.
 *Subset the measurements  for mean, standard deviation from the data.
