@@ -17,7 +17,7 @@ Course Project - Getting and Cleaning Data
 
 
 This script uses data from "Human Activity Recognition Using Smartphones Dataset" 
-please downloaded and unzip it and puth the resulted "UCI HAR Dataset" folder in your working directory 
+please downloaded and unzip it and put the resulted "UCI HAR Dataset" folder in your working directory 
 then run run_analysis.R.
 the script will output the resuled tidy data to your working directory "/TidyDataSet.txt".
 
